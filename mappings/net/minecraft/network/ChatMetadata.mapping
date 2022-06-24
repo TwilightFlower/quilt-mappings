@@ -1,0 +1,11 @@
+CLASS net/minecraft/unmapped/C_byvkekfd net/minecraft/network/ChatMetadata
+	METHOD m_hwaaytal makeSignature (Lnet/minecraft/unmapped/C_lzhmpsgc;Lnet/minecraft/unmapped/C_rdaqiwdt;)Lnet/minecraft/unmapped/C_shphkjbi;
+		ARG 1 signer
+		ARG 2 message
+	METHOD m_mvcgwlqk (Lnet/minecraft/unmapped/C_rdaqiwdt;Lnet/minecraft/unmapped/C_bfuzddzp$C_zbgybelf;)V
+		ARG 2 output
+	METHOD m_taaccdog makeSignature (Lnet/minecraft/unmapped/C_lzhmpsgc;Ljava/lang/String;)Lnet/minecraft/unmapped/C_shphkjbi;
+		ARG 1 signer
+		ARG 2 message
+	METHOD m_vlgmafok withUuid (Ljava/util/UUID;)Lnet/minecraft/unmapped/C_byvkekfd;
+		ARG 0 uuid

@@ -1,0 +1,14 @@
+CLASS net/minecraft/unmapped/C_shphkjbi net/minecraft/network/ChatSignature
+	METHOD m_ebawjkga textBytes (Lnet/minecraft/unmapped/C_rdaqiwdt;)[B
+	METHOD m_lfrmwrvr isValid (Lnet/minecraft/unmapped/C_yvuwcvkm;Lnet/minecraft/unmapped/C_rdaqiwdt;)Z
+		ARG 1 validator
+		ARG 2 text
+	METHOD m_lrjouotl isNotNil ()Z
+	METHOD m_oeimqyor createNilSignature ()Lnet/minecraft/unmapped/C_shphkjbi;
+	METHOD m_qexpzhsh (Lnet/minecraft/unmapped/C_rdaqiwdt;Lnet/minecraft/unmapped/C_bfuzddzp$C_zbgybelf;)V
+		ARG 2 output
+	METHOD m_weyujcsy hasSender (Ljava/util/UUID;)Z
+	METHOD m_ytdbtgtu outputSignature (Lnet/minecraft/unmapped/C_bfuzddzp$C_zbgybelf;Lnet/minecraft/unmapped/C_rdaqiwdt;Ljava/util/UUID;Ljava/time/Instant;J)V
+		ARG 0 output
+		ARG 1 message
+		ARG 4 salt
