@@ -1,0 +1,15 @@
+CLASS net/minecraft/unmapped/C_gjowlytq net/minecraft/network/chat/ChatDecorator
+	FIELD f_udljdbgp DEFAULT_DECORATOR Lnet/minecraft/unmapped/C_gjowlytq;
+	METHOD decorate decorate (Lnet/minecraft/unmapped/C_mxrobsgg;Lnet/minecraft/unmapped/C_rdaqiwdt;)Ljava/util/concurrent/CompletableFuture;
+		ARG 1 player
+		ARG 2 message
+	METHOD decorateChat decorateChat (Lnet/minecraft/unmapped/C_mxrobsgg;Lnet/minecraft/unmapped/C_yjdbpemn;Lnet/minecraft/unmapped/C_shphkjbi;Z)Ljava/util/concurrent/CompletableFuture;
+		ARG 1 player
+		ARG 2 message
+		ARG 3 signature
+	METHOD decorateFiltered decorateFiltered (Lnet/minecraft/unmapped/C_mxrobsgg;Lnet/minecraft/unmapped/C_yjdbpemn;)Ljava/util/concurrent/CompletableFuture;
+		ARG 1 player
+		ARG 2 message
+	METHOD m_yvxaddge (Lnet/minecraft/unmapped/C_mxrobsgg;Lnet/minecraft/unmapped/C_rdaqiwdt;)Ljava/util/concurrent/CompletableFuture;
+		ARG 0 player
+		ARG 1 msg

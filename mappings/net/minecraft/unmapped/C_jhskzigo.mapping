@@ -1,0 +1,11 @@
+CLASS net/minecraft/unmapped/C_jhskzigo
+	FIELD f_tofbwjha client Lnet/minecraft/unmapped/C_ayfeobid;
+	FIELD f_ttklbsdd rand Lnet/minecraft/unmapped/C_jhskzigo$C_operpojc;
+	CLASS C_jfdqmlfo
+		METHOD m_guuxxdac idEquals (I)Z
+		METHOD m_xplylwev queryEquals (Ljava/lang/String;)Z
+	CLASS C_operpojc IncreasingRandom
+		FIELD f_ehijbbgs rand Lnet/minecraft/unmapped/C_rlomrsco;
+		FIELD f_qodjrpmt lastValue I
+		FIELD f_zcvodbqx MAX_INC I
+		METHOD m_onjtxrvo getNext ()I

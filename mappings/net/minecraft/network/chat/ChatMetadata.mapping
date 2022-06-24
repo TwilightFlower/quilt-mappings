@@ -1,4 +1,4 @@
-CLASS net/minecraft/unmapped/C_byvkekfd net/minecraft/network/ChatMetadata
+CLASS net/minecraft/unmapped/C_byvkekfd net/minecraft/network/chat/ChatMetadata
 	METHOD m_hwaaytal makeSignature (Lnet/minecraft/unmapped/C_lzhmpsgc;Lnet/minecraft/unmapped/C_rdaqiwdt;)Lnet/minecraft/unmapped/C_shphkjbi;
 		ARG 1 signer
 		ARG 2 message

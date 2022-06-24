@@ -1,0 +1,16 @@
+CLASS net/minecraft/unmapped/C_yjdbpemn net/minecraft/util/Filtered
+	FIELD f_rhxzgkmz EMPTY Lnet/minecraft/unmapped/C_yjdbpemn;
+	METHOD m_canidqdq getMessageFor (Lnet/minecraft/unmapped/C_mxrobsgg;Lnet/minecraft/unmapped/C_mxrobsgg;)Ljava/lang/Object;
+		ARG 1 sender
+		ARG 2 receiver
+	METHOD m_fczyuiaq hasFiltered ()Z
+	METHOD m_ffwrojne filteredOr (Ljava/lang/Object;)Ljava/lang/Object;
+		ARG 1 def
+	METHOD m_ienfzvtn map (Ljava/util/function/Function;)Lnet/minecraft/unmapped/C_yjdbpemn;
+		ARG 1 mapper
+	METHOD m_nstluoxf fromUnfiltered (Ljava/lang/Object;)Lnet/minecraft/unmapped/C_yjdbpemn;
+	METHOD m_oqreoqvq fromFiltered (Ljava/lang/Object;)Lnet/minecraft/unmapped/C_yjdbpemn;
+	METHOD m_ugbglmqz affectedByFilter ()Z
+	METHOD m_wwnxhnxg getMessageFor (Lnet/minecraft/unmapped/C_pennblrk;Lnet/minecraft/unmapped/C_mxrobsgg;)Ljava/lang/Object;
+		ARG 1 sender
+		ARG 2 receiver

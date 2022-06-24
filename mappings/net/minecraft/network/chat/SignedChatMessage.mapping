@@ -1,4 +1,4 @@
-CLASS net/minecraft/unmapped/C_zzdolisx net/minecraft/network/SignedChatMessage
+CLASS net/minecraft/unmapped/C_zzdolisx net/minecraft/network/chat/SignedChatMessage
 	METHOD m_adlrwlsb isValidFor (Lnet/minecraft/unmapped/C_mxrobsgg;)Z
 	METHOD m_ahevzmgg withUnsignedContent (Lnet/minecraft/unmapped/C_rdaqiwdt;)Lnet/minecraft/unmapped/C_zzdolisx;
 	METHOD m_brbiqdci of (Ljava/lang/String;Lnet/minecraft/unmapped/C_shphkjbi;)Lnet/minecraft/unmapped/C_zzdolisx;
@@ -8,9 +8,16 @@ CLASS net/minecraft/unmapped/C_zzdolisx net/minecraft/network/SignedChatMessage
 	METHOD m_fjmstxtf of (Lnet/minecraft/unmapped/C_rdaqiwdt;Lnet/minecraft/unmapped/C_shphkjbi;)Lnet/minecraft/unmapped/C_zzdolisx;
 		ARG 0 message
 		ARG 1 signature
-	METHOD m_qjtvjpiq isValidForKey (Lnet/minecraft/unmapped/C_psbzgaqf;)Z
-	METHOD m_tfkcjptc getContent ()Lnet/minecraft/unmapped/C_rdaqiwdt;
-	METHOD m_vfhtakcy (Lnet/minecraft/unmapped/C_rdaqiwdt;Lnet/minecraft/unmapped/C_rdaqiwdt;Lnet/minecraft/unmapped/C_shphkjbi;Z)Lnet/minecraft/unmapped/C_zzdolisx;
+	METHOD m_nkpbyotm fromFiltered (Lnet/minecraft/unmapped/C_yjdbpemn;Lnet/minecraft/unmapped/C_yjdbpemn;Lnet/minecraft/unmapped/C_shphkjbi;Z)Lnet/minecraft/unmapped/C_yjdbpemn;
 		ARG 0 signedContent
 		ARG 1 unsignedContent
 		ARG 2 signature
+	METHOD m_qjtvjpiq isValidForKey (Lnet/minecraft/unmapped/C_psbzgaqf;)Z
+	METHOD m_qwelnfcs nilSigned (Lnet/minecraft/unmapped/C_rdaqiwdt;)Lnet/minecraft/unmapped/C_zzdolisx;
+		ARG 0 message
+	METHOD m_tfkcjptc getContent ()Lnet/minecraft/unmapped/C_rdaqiwdt;
+	METHOD m_vfhtakcy of (Lnet/minecraft/unmapped/C_rdaqiwdt;Lnet/minecraft/unmapped/C_rdaqiwdt;Lnet/minecraft/unmapped/C_shphkjbi;Z)Lnet/minecraft/unmapped/C_zzdolisx;
+		ARG 0 signedContent
+		ARG 1 unsignedContent
+		ARG 2 signature
+	METHOD m_zzkuzgly withoutUnsignedContent ()Lnet/minecraft/unmapped/C_zzdolisx;

@@ -1,4 +1,4 @@
-CLASS net/minecraft/unmapped/C_shphkjbi net/minecraft/network/ChatSignature
+CLASS net/minecraft/unmapped/C_shphkjbi net/minecraft/network/chat/ChatSignature
 	METHOD m_ebawjkga textBytes (Lnet/minecraft/unmapped/C_rdaqiwdt;)[B
 	METHOD m_lfrmwrvr isValid (Lnet/minecraft/unmapped/C_yvuwcvkm;Lnet/minecraft/unmapped/C_rdaqiwdt;)Z
 		ARG 1 validator
